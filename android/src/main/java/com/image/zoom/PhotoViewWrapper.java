@@ -158,6 +158,7 @@ public class PhotoViewWrapper extends PhotoView {
                                            boolean isFirstResource) {
                 Float scale = scales.get(getId());
                 if (scale != null) {
+                    init();
                     setScale(scale, true);
                 }
 
