@@ -2,11 +2,10 @@
 import React,{Component,PropTypes} from 'react';
 import {
   requireNativeComponent,
-  ViewPagerAndroid,
 } from 'react-native';
 
 const VIEWPAGER_REF = 'viewPager';
-
+import ViewPagerAndroid from "@react-native-community/viewpager";
 export class ViewPagerZoom extends ViewPagerAndroid {
   render() {
     return (
